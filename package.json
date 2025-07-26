@@ -1,0 +1,17 @@
+{
+  "name": "nayels-web-hall",
+  "version": "1.0.0",
+  "main": "public/index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@nadjiel.github.com:nadjiel/web-hall.git"
+  },
+  "keywords": [],
+  "author": "Daniel O. Sousa",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

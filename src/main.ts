@@ -1,3 +1,14 @@
-const message: string = "Hello, World!";
+import { tsParticles } from "@tsparticles/engine";
+import { loadBasic } from "@tsparticles/basic";
+import { options } from "./options";
 
-console.log(message);
+import "./style.css";
+
+const div = document.querySelector("#tsparticles")! as HTMLElement;
+
+await loadBasic(tsParticles);
+
+tsParticles.load({
+  element: div,
+  options: options
+});

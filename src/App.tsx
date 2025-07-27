@@ -1,0 +1,61 @@
+function App() {
+  return (
+    <>
+      <header>
+        <h2>Nayel</h2>
+      </header>
+      
+      <main>
+        <h1>Hello! I'm <span>Daniel</span>!</h1>
+        <p>
+          I'm a Brazilian web and game developer dedicated to bringing value to users through fun, empathetic designs.
+          I'm also a developer tool creator and an open-source enthusiast.
+          I strive to follow the principle that "<span>form follows function</span>".
+        </p>
+
+        <a href="#">Comission me!</a>
+      </main>
+
+      <section>
+        <h2>What can I do for you?</h2>
+
+        <ul>
+          <li>Craft distinctive memorable <a href="#">websites</a></li>
+          <li>Conveive thoughtful <a href="#">prototypes and wireframes</a></li>
+          <li>Develop scalable <a href="#">fullstack applications</a></li>
+          <li>Provide <a href="#">translation</a> services</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>My stack</h2>
+
+        <div>
+          <img src="#" alt="Technology icon." />
+          <img src="#" alt="Technology icon." />
+          <img src="#" alt="Technology icon." />
+        </div>
+      </section>
+
+      <section>
+        <h2>My work</h2>
+
+        <div>
+          <section>
+            <h3>Games...</h3>
+
+            <article></article>
+          </section>
+
+          <section>
+            <h3>Websites...</h3>
+
+            <article></article>
+          </section>
+        </div>
+      </section>
+    </>
+  );
+}
+
+export default App;

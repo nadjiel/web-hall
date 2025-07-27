@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@tsparticles/basic": "^3.8.1",
-    "@tsparticles/engine": "^3.8.1"
+    "@tsparticles/engine": "^3.8.1",
+    "@tsparticles/plugin-emitters": "^3.8.1"
   }
 }
